@@ -3,11 +3,12 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 /* line 10, ../sass/screen.scss */
-body, html {
+body {
+  padding-top: 50px;
   background-color: #333;
 }
 
-/* line 13, ../sass/screen.scss */
+/* line 14, ../sass/screen.scss */
 .topbar > .fill {
   padding: 0 20px;
   background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #c43c35), color-stop(50%, #c43c35), color-stop(100%, #882a25));
@@ -18,12 +19,8 @@ body, html {
   background-image: linear-gradient(top, #c43c35, #c43c35, #882a25);
 }
 
-/* line 17, ../sass/screen.scss */
-.camview {
-  margin: 0 auto;
-  margin-top: 50px;
-  max-width: 500px;
-  width: 100%;
+/* line 18, ../sass/screen.scss */
+#main div {
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
   -o-border-radius: 3px;
@@ -38,12 +35,20 @@ body, html {
   border-top: 3px solid #C43C35;
   text-align: center;
 }
-/* line 30, ../sass/screen.scss */
-.camview > figure {
+
+/* line 28, ../sass/screen.scss */
+#main.cams div {
+  margin: 0 auto;
+  margin-top: 50px;
+  max-width: 500px;
+  width: 100%;
+}
+/* line 33, ../sass/screen.scss */
+#main.cams div > figure {
   padding: 0 5px;
 }
-/* line 32, ../sass/screen.scss */
-.camview > figure > img {
+/* line 35, ../sass/screen.scss */
+#main.cams div > figure > img {
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
   -o-border-radius: 3px;
@@ -54,4 +59,22 @@ body, html {
   max-width: 480px;
   height: auto;
   margin-bottom: 10px;
+}
+
+/* line 45, ../sass/screen.scss */
+#main.tromso div {
+  display: inline-block;
+  width: 15%;
+  margin: 2px 2px;
+}
+/* line 49, ../sass/screen.scss */
+#main.tromso div h3 {
+  font-size: 0.5em;
+  margin: 0;
+  line-height: 1.2em;
+  margin: 5px 0;
+}
+/* line 55, ../sass/screen.scss */
+#main.tromso div img {
+  width: 100%;
 }
