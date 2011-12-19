@@ -37,18 +37,18 @@ body {
 }
 
 /* line 28, ../sass/screen.scss */
-#main.cams div {
+#main div {
   margin: 0 auto;
   margin-top: 50px;
   max-width: 500px;
   width: 100%;
 }
 /* line 33, ../sass/screen.scss */
-#main.cams div > figure {
+#main div > figure {
   padding: 0 5px;
 }
 /* line 35, ../sass/screen.scss */
-#main.cams div > figure > img {
+#main div > figure > img {
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
   -o-border-radius: 3px;
@@ -61,20 +61,18 @@ body {
   margin-bottom: 10px;
 }
 
-/* line 45, ../sass/screen.scss */
-#main.tromso div {
-  display: inline-block;
-  width: 15%;
-  margin: 2px 2px;
+/*#main.tromso div {
+	display: inline-block;
+	width: 15%;
+	margin: 2px 2px;
+	h3 {
+		font-size: 0.5em;
+		margin: 0;
+		line-height: 1.2em;
+		margin: 5px 0;
+	}
+	img {
+		width: 100%;
+	}
 }
-/* line 49, ../sass/screen.scss */
-#main.tromso div h3 {
-  font-size: 0.5em;
-  margin: 0;
-  line-height: 1.2em;
-  margin: 5px 0;
-}
-/* line 55, ../sass/screen.scss */
-#main.tromso div img {
-  width: 100%;
-}
+*/
