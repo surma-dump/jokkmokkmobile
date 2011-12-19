@@ -1,0 +1,40 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/css3/border-radius";
+@import "compass/css3/gradient";
+@import "compass/css3/box-shadow";
+
+body, html {
+	background-color: #333;
+}
+.topbar > .fill {
+	padding: 0 20px;
+	@include linear-gradient(color-stops(#C43C35, #C43C35, #882A25), top)
+}
+.camview {
+
+	margin: 0 auto;
+	margin-top: 50px;
+	max-width: 500px;
+	width: 100%;
+
+	@include border-radius(3px);
+	@include single-box-shadow(#111, 10px, 10px, 8px, false, false);
+	background-color: #F5F5F5;
+	border-top: 3px solid #C43C35;
+	text-align: center;
+
+	> figure {
+		padding: 0 5px;
+		> img {
+			@include border-radius(3px);
+			width: 100%;
+			max-width: 480px;
+			height: auto;
+			margin-bottom: 10px;
+		}
+	}
+}

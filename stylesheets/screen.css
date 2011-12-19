@@ -1,0 +1,57 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 10, ../sass/screen.scss */
+body, html {
+  background-color: #333;
+}
+
+/* line 13, ../sass/screen.scss */
+.topbar > .fill {
+  padding: 0 20px;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #c43c35), color-stop(50%, #c43c35), color-stop(100%, #882a25));
+  background-image: -webkit-linear-gradient(top, #c43c35, #c43c35, #882a25);
+  background-image: -moz-linear-gradient(top, #c43c35, #c43c35, #882a25);
+  background-image: -o-linear-gradient(top, #c43c35, #c43c35, #882a25);
+  background-image: -ms-linear-gradient(top, #c43c35, #c43c35, #882a25);
+  background-image: linear-gradient(top, #c43c35, #c43c35, #882a25);
+}
+
+/* line 17, ../sass/screen.scss */
+.camview {
+  margin: 0 auto;
+  margin-top: 50px;
+  max-width: 500px;
+  width: 100%;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+  -moz-box-shadow: 10px 10px 8px #111111;
+  -webkit-box-shadow: 10px 10px 8px #111111;
+  -o-box-shadow: 10px 10px 8px #111111;
+  box-shadow: 10px 10px 8px #111111;
+  background-color: #F5F5F5;
+  border-top: 3px solid #C43C35;
+  text-align: center;
+}
+/* line 30, ../sass/screen.scss */
+.camview > figure {
+  padding: 0 5px;
+}
+/* line 32, ../sass/screen.scss */
+.camview > figure > img {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+  width: 100%;
+  max-width: 480px;
+  height: auto;
+  margin-bottom: 10px;
+}
