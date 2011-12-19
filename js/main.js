@@ -37,7 +37,7 @@
 					return img_regexp.test($(this).attr('src'));
 				});
 				$($.makeArray($imgs).reverse()).each(function(idx, img) {
-					if(idx >= 10) {
+					if(idx >= 6) {
 						return;
 					}
 					var src = $(img).attr('src');
